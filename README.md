@@ -1,6 +1,7 @@
 **Problem Statement**
 
 The objective of this project is to solve a supervised machine learning classification problem using different classification algorithms such as Logistic Regression, Decision Tree, kNN, Naive Bayes, Random Forest (Ensemble) and XGBoost (Ensemble). The dataset is analyzed, preprocessed, and used to train on these six machine learning models. The trained models are further evaluated using metrics such as Accuracy, AUC Score, Precision, Recall, F1 Score and Matthews Correlation Coefficient (MCC Score). GitHub Repository is then created and then deployed using a Streamlit web application to provide an interactive interface for model comparison and prediction.
+
 **Dataset Description**
 
 The dataset used for this assignment was obtained from Kaggle. It contains 9.709 instances and 19 input features. The dataset includes both numerical and categorical attributes related to customer information. The target variable represents whether credit card is approved to a particular customer, making this a classification problem. Total number of customers for whom cards were rejected is 8,426 and for 1,283 customers, it got approved. This makes the dataset an imbalanced one.
@@ -13,6 +14,7 @@ The following machine learning classification models were implemented and evalua
 4. Naive Bayes Classifier  
 5. Random Forest (Ensemble Model)  
 6. XGBoost (Ensemble Model)
+   
 **Comparison Table**
 
  <img width="637" height="371" alt="image" src="https://github.com/user-attachments/assets/7e1456cf-570b-4bc1-ae67-c242f0b897db" />
