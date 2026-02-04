@@ -26,7 +26,7 @@ The following machine learning classification models were implemented and evalua
 
 **Decision Tree**: 	Accuracy is higher (76.98%) but recall is very low (0.17). Precision is slightly better than Logistic Regression. F1 and MCC are low, which indicates overfitting and poor generalization.
 
-**kNN**: Higher accuracy (85.53%) but extremely low recall (0.01) and F1 (0.02). Model mostly predicts majority class and fails on minority class, which is unsuitable for imbalanced data.
+**KNN**: Higher accuracy (85.53%) but extremely low recall (0.01) and F1 (0.02). Model mostly predicts majority class and fails on minority class, which is unsuitable for imbalanced data.
 
 **Naive Bayes**: Accuracy is moderate (80.74%), precision is slightly better (0.19), but recall is low (0.15). F1 and MCC are also low. NB model performs better than kNN and Logistic Regression in precision but still weak overall.
 
